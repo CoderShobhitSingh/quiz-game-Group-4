@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+#question {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 12px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+#next-button {
+  padding: 10px; 
+  margin-top: 10px; 
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc; 
+  cursor: default;
+}
+
+
+#score {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.correct {
+  background-color: #28a745 !important; 
+}
+
+.incorrect {
+  background-color: #dc3545 !important; 
+}
+
+#result-container {
+  margin-top: 20px;
+}
+
+#result-container button {
+margin-top: 10px;
+}
+
+#next-button {
+  padding: 10px;
+  margin-top: 10px; 
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.quiz-container #next-button {
+  padding: 10px; 
+  margin-top: 10px; 
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+.container { 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+#leaderboard-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#leaderboard-list li {
+  margin-bottom: 5px;
+}
+
+#play-again {
+  margin-top: 10px;
+}
+
+#name-entry input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
